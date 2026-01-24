@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.parent{
+
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    position: relative;
+}
+
+span{
+    background-color: skyblue;
+    border-radius: 80%;
+    padding: 2rem;
+    padding-inline:4rem;
+}
+
+.service_ui{
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.service_ui > h1 {
+ 
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 0.25rem;
+    font-size: 2rem;
+    border-bottom: 0.125rem solid skyblue;
+    /* text-align: center; */
+}
+
+ button {
+    position: absolute;
+    bottom: 12%;
+    right: 5%;
+    background-color: blue;
+    padding-inline: 1rem;
+    padding-block: 1.5rem;
+    color: white;
+    font-size: 3rem;
+    border-radius: 0.75rem;
+    transition: all 300ms ease-in;
+}
+
+ul{
+position: absolute;
+top: 25%;
+left: 30%;
+list-style:square;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+ul>li {
+    font-size: 2rem;
+
+}
+
+.service_ui>button:hover{
+    background-color: cyan;
+    color: black;
+    transform: scale(1.15);
+}
+
+
+ul {
+  /* font-family: monospace; */
+  /* font-size: 2em; */
+  list-style: none;
+  margin: 2em;
+  padding: 0;
+  
+  li {
+    margin: 0;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    position: relative;
+    
+    &:after {
+      content: '';
+      height: .4em;
+      width: .4em;
+      background: #D2153A;
+      display: block;
+      position: absolute;
+      transform: rotate(45deg);
+      top: .25em;
+      left: 0;
+    }
+    
+  }
+  
+}

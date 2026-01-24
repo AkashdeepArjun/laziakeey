@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 16px;
+}
+
+.home{
+
+    width: 100vw;
+    height: 95vh;
+    max-height:90vh;
+    background-color:black ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(2,minmax(0,1fr));
+    overflow-y:auto;
+
+}
+
+
+
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 0;
+    min-height: 0;
+    border-bottom: 0.0125rem solid lightgray;
+
+    /* overflow: visible; */
+
+   
+}
+
+.wrapper > * {
+
+
+    min-height: 0;
+
+
+}
+
+.wrapper > h1{
+        
+    /* grid-column: 2 /3; */
+    /* grid-row: 1 / 2; */
+    position: absolute;
+    /* right:25%; */
+    top: 10%;
+    left: 30%;
+    
+    font-family: 'Roboto flex';
+    font-size:5rem;
+    text-wrap: wrap;
+    font-weight:500;
+    /* padding: 0.5rem; */
+    /* border: 0.125rem dotted brown; */
+    background-color: rgba(0 0 0 /0.5);
+    color: white;
+  
+    /* padding: 2rem; */
+
+}
+
+.wrapper > button{
+    /* padding-inline : 0.25rem; */
+    /* padding-block: 0.125rem; */
+ 
+    width: 32rem;
+    height: 9rem;
+
+    background-color: green;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 3rem;
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+
+}
+
+.wrapper button:hover{
+
+    transform:scale(1.15);
+    background-color: skyblue;
+    color: white;
+
+
+}
+
+
+
+.wrapper > img {
+    /* grid-row: 1 / 2; */
+    /* grid-column: 1 /2; */
+
+position:absolute;
+    top:10%;
+    left: 0;
+    width:36rem;
+    /* height:25%; */
+    height:18rem;
+    aspect-ratio:1 / 1;
+    object-fit: contain;
+
+}
+
+.coming{
+    opacity: 0.5;
+}

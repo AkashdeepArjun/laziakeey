@@ -1,0 +1,64 @@
+
+.jobs_wrapper{
+
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    border: 0.25rem solid gray;
+
+    margin: 0.25rem;
+    border-collapse: collapse;
+
+/* css imafe optimization */
+}
+
+
+.vacancy_card{
+
+    display:flex;
+    flex-flow: column nowrap;
+    padding: 0.25rem;
+    border: 0.125rem solid lightgray;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.vacancy_card p {
+    font-size: 2rem;
+    background-color:yellow;
+    color: black;
+    font-style: bold;
+    padding: 0.5rem;
+}
+
+
+.vacancy_card :nth-child(4){
+
+background-color: purple;
+padding: 1.5rem;
+color: white;
+font-size: 2rem;
+position: relative;
+left: -25%;
+top: 30%;;
+
+}
+
+.vacancy_card :nth-child(5){
+
+background-color: green;
+padding: 1.5rem;
+color: white;
+font-size: 2rem;
+position: relative;
+right: -40%;
+top: -50%;
+    /* bottom: 0; */
+
+}
