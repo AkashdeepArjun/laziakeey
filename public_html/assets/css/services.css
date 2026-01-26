@@ -41,7 +41,7 @@ span{
 
  button {
     position: absolute;
-    bottom: 12%;
+    bottom: 25%;
     right: 5%;
     background-color: blue;
     padding-inline: 1rem;
@@ -50,11 +50,12 @@ span{
     font-size: 3rem;
     border-radius: 0.75rem;
     transition: all 300ms ease-in;
+    cursor:pointer;
 }
 
 ul{
 position: absolute;
-top: 25%;
+top: 5%;
 left: 30%;
 list-style:square;
 display: flex;
