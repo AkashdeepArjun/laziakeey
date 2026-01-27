@@ -5,7 +5,7 @@
 
 
         
-        <img src="/assets/images/businessOwners.png">
+        <img src="/assets/images/businessOwners.webp">
 
         <h1> WANT A PROFESSIONAL WEBSITE FOR YOUR BUSINESS?</h1>
 
@@ -21,7 +21,7 @@
 
         <h1> WANT A PROFESSIONAL ANDROID APP FOR YOUR BUSINESS? </h1>
 
-        <img src="/assets/images/business.jpg">
+        <img src="/assets/images/business.webp">
 
         <button>Coming Soon!!</button>
 

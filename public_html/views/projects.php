@@ -15,7 +15,7 @@
 
             <div class="img_wrapper">
 
-                <img src="/assets/images/fashion.png" >
+                <img src="/assets/images/fashion.webp" >
 
 
 
@@ -37,7 +37,7 @@
 
              <div class="img_wrapper">
 
-                <img src="/assets/images/btrends.png" >
+                <img src="/assets/images/btrends.webp" >
 
 
 

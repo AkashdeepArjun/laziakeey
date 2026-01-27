@@ -11,7 +11,7 @@
 
             <div class="image_wrapper">
 
-                <img src="/assets/images/akash.jpg" class="avatar">
+                <img src="/assets/images/akash.webp" class="avatar">
 
             </div>
 
