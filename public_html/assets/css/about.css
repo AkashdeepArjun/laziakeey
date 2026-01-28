@@ -158,8 +158,8 @@ a>img:hover{
 
 .techs{
 
-    width: max-content;
-    height: max-content;
+    /* width: max-content; */
+    /* height: max-content; */
     display: flex;
     flex-direction: row;
     padding: 1.5rem;
