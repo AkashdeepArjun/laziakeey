@@ -25,6 +25,9 @@ $services_css = '/assets/css/services.css';
 
 $services_css_version = file_exists($services_css)?filemtime($services_css):time();
 
+$js= '/assets/js/app.js';
+
+$js_ver = file_exists($js)?filemtime($js):time();
 
 
 
@@ -126,7 +129,7 @@ $services_css_version = file_exists($services_css)?filemtime($services_css):time
 
 
 
-        <script type="text/javascript" src="/assets/js/app.js" > </script>
+        <script type="text/javascript" src="/assets/js/app.js?v=<?=$js_ver?>" > </script>
 
     </body>
 
