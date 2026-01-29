@@ -75,7 +75,8 @@ html{
     width: 32rem;
     height: 9rem;
 
-    background-color: lightgreen;
+    background-color: lightyellow;
+    color: black;
     position: absolute;
     bottom: 5%;
     right: 5%;
