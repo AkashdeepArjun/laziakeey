@@ -28,7 +28,7 @@
             <p> A Store for Fashion ! </p>
 
 
-            <button>Visit</button>
+            <button>CHECK THIS OUT</button>
         </div> 
 
         <div class="project_card">
@@ -49,7 +49,7 @@
 
         
             <p>  know business !</p>
-            <button>Visit</button>
+            <button>CHECK THIS OUT</button>
 
         </div> 
           <div class="project_card">
@@ -66,7 +66,7 @@
 
             <p> Logistics Simulation </p>
 
-            <button>Visit</button>
+            <button> CHECK THIS OUT  </button>
 
 
             
@@ -103,7 +103,7 @@
 
             <p>Test flow of ecommerce!</p>
 
-            <button>Test </button>
+            <button>TEST MY APP </button>
         </div> 
 
         <div class="project_card">
@@ -121,7 +121,7 @@
 
             <p>  BusinessTrends Api </p>
 
-            <button>Test</button>
+            <button>TEST MY APP</button>
 
         </div> 
           <div class="project_card">
@@ -139,8 +139,8 @@
 
 
 
-            <p>Backend logic for BusinessLogistics </p>
-            <button>Test</button>
+            <p>Backend logic </p>
+            <button>TEST MY APP</button>
 
 
             

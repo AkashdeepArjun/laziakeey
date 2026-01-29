@@ -97,10 +97,13 @@ ul{
     /* justify-content: space-between; */
 }
 
-.project_card h4 {
+.project_card > h4 {
 
 
     font-size: 2rem;
+    position:absolute;
+    top: 0.25rem;
+    left: 0.5rem;
 
 
 
@@ -112,10 +115,11 @@ ul{
 
 .project_card > button{
 
-    background-color: green;
+    background-color:transparent;
+    border:none;
     padding-inline: 0.5rem;
     padding-block: 0.075rem;
-    color: white;
+    color:green;
     font-size: 1.25rem;
     /* position: relative; */
     /* float: right; */
@@ -126,11 +130,13 @@ ul{
     bottom: 0.5rem;
     transition: all 200ms ease-in;
     cursor: pointer;
+    font-style: bold;
 
 }
 .project_card button:hover{
 
     transform: scale(1.15);
+    color: blue;
 
 
 }
@@ -140,7 +146,7 @@ ul{
 
 .project_card:hover{
 
-    transform: scale(1.25);
+    transform: scale(1.08);
     background-color:#fff;
     border: 0.25rem solid green;
     
