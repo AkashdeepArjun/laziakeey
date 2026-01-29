@@ -1,3 +1,38 @@
+<?php 
+
+$home_css='/assets/css/home.css';
+
+$home_css_version = file_exists($home_css)?filemtime($home_css):time();
+
+$style_css = '/assets/css/style.css';
+
+$style_css_version = file_exists($style_css)?filemtime($style_css):time();
+
+$jobs_css = '/assets/css/jobs.css';
+
+$jobs_css_version = file_exists($jobs_css)?filemtime($jobs_css):time();
+
+$projects_css = '/assets/css/projects.css';
+
+$projects_css_version = file_exists($projects_css)?filemtime($jobs_css):time();
+
+$about_css = '/assets/css/about.css';
+
+$about_css_version = file_exists($about_css)?filemtime($about_css):time();
+
+
+$services_css = '/assets/css/services.css';
+
+$services_css_version = file_exists($services_css)?filemtime($services_css):time();
+
+
+
+
+
+?>
+
+
+
 <html> 
 
     <head> 
@@ -5,12 +40,12 @@
             CoderUniverse
         </title>
 
-    <link rel="stylesheet" href="/assets/css/style.css"> 
-    <link rel="stylesheet" href="/assets/css/home.css"> 
-    <link rel="stylesheet" href="/assets/css/jobs.css"> 
-    <link rel="stylesheet" href="/assets/css/projects.css"> 
-    <link rel="stylesheet" href="/assets/css/about.css"> 
-    <link rel="stylesheet" href="/assets/css/services.css"> 
+        <link rel="stylesheet" href="/assets/css/style.css?v=<?=$style_css_version?>"> 
+        <link rel="stylesheet" href="/assets/css/home.css?v=<?=$home_css_version?>"> 
+        <link rel="stylesheet" href="/assets/css/jobs.css?v=<?=$jobs_css_version?>"> 
+        <link rel="stylesheet" href="/assets/css/projects.css?v=<?=$projects_css_version?>"> 
+        <link rel="stylesheet" href="/assets/css/about.css?v=<?=$about_css_version?>"> 
+        <link rel="stylesheet" href="/assets/css/services.css?v=<?=$services_css_version?>"> 
     
     
     </head>
