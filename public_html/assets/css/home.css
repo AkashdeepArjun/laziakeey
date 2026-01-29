@@ -14,7 +14,7 @@ html{
     width: 100vw;
     height: 95vh;
     max-height:90vh;
-    background-color:black ;
+    background-color:black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:repeat(2,minmax(0,1fr));
@@ -75,7 +75,7 @@ html{
     width: 32rem;
     height: 9rem;
 
-    background-color: green;
+    background-color: lightgreen;
     position: absolute;
     bottom: 5%;
     right: 5%;
