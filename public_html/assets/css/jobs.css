@@ -1,4 +1,20 @@
+:root{
 
+/* --base-fs:clamp(1rem,0.5rem+1.5vw,1.25rem); */
+
+    --p-font-size:clamp(1rem,0.93rem+0.36vw,1.125rem); 
+    
+    --h1-font-size:clamp(2rem,1.14rem+0.79vw,3rem);
+
+    --h2-font-size:clamp(1.5rem,1.32rem+0.80vw,2rem);
+
+    --h3-font-size:clamp(2rem,1.64rem+1.79rem,3rem);
+
+
+
+
+
+}
 .jobs_wrapper{
 
     width: 100vw;
@@ -6,12 +22,12 @@
     display: grid;
     grid-template-rows:repeat(3,1fr);
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 1rem;
-    border: 0.25rem solid gray;
-
-    margin: 0.25rem;
+    /* grid-gap: 1rem; */
+    grid-gap: 0.5rem;
+    /* border: 0.25rem solid gray; */
+    padding: 2rem;
+    /* margin: 0.25rem; */
     border-collapse: collapse;
-
 /* css imafe optimization */
 }
 
@@ -21,7 +37,7 @@
     position: relative;
     display:flex;
     flex-flow: column nowrap;
-    padding: 0.25rem;
+    padding: 1.5rem;
     border: 0.125rem solid lightgray;
     justify-content: center;
     align-items: center;
@@ -33,37 +49,38 @@
 
 .vacancy_card p {
     font-size: 2rem;
-    background-color:yellow;
+    /* background-color:yellow; */
     color: black;
     font-style: bold;
     padding: 2.5rem;
     border-radius:50%;
+    font-size: 6rem;
 
 }
 
 
-.vacancy_card :nth-child(4){
+.btn_eligib{
 
 background-color: purple;
 padding: 1.5rem;
 color: white;
-font-size: 2rem;
+font-size: var(--h1-font-size);
 position: absolute;
-bottom: 0.25rem;
-left:0.25rem;
+bottom: 0;
+left:0;
 width: max-content;
 border:none;
 
 }
 
-.vacancy_card :nth-child(5){
+.btn_apply{
 
 background-color: green;
 padding: 1.5rem;
 color: white;
-font-size: 2rem;
+font-size: var(--h1-font-size);
 position:absolute;
-top: 0.25rem;
+bottom: 0.25rem;
 right: 0.5rem;
 height: max-content;
 border: none;
@@ -79,6 +96,21 @@ border: none;
 
 
 }
+
+@media(min-width:768px){
+
+   .btn_apply{
+       position: absolute;
+       top:0.25rem;
+       right: 0.5rem;
+   }
+
+
+
+}
+
+
+
 
 
 .vacancy_card > button:hover{

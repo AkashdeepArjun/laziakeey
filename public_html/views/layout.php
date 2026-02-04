@@ -25,7 +25,9 @@ $services_css = '/assets/css/services.css';
 
 $services_css_version = file_exists($services_css)?filemtime($services_css):time();
 
+$js_file ='/assets/js/app.js';
 
+$js_ver=file_exists($js_file)?filemtime($js_file):time();
 
 
 
@@ -66,6 +68,23 @@ $services_css_version = file_exists($services_css)?filemtime($services_css):time
 
             </nav>
 
+              <aside id="sidebar" class="sidebar">
+
+
+                <a href="/" class="<?= $page==='home'?'active':''?>">HOME</a>
+                <a href="/projects" class="<?= $page==='projects'?'active':''?>">PROJECTS</a>
+                <!-- <a href="/skills" class="<?= $page==='skills'?'active':''?>">TEST OUR WORK </a> -->
+                <a href="/career" class="<?= $page==='jobs'?'active':''?>">CAREER </a>
+                <a href="/about" class="<?= $page==='about'?'active':''?>">ABOUT US</a>
+
+                <a href="/services" class="<?= $page==='services'?'active':''?>">SERVICES</a>
+
+
+                <button class="cls_sidebar">X</button>
+
+
+            </aside>
+
            
 
 
@@ -74,22 +93,7 @@ $services_css_version = file_exists($services_css)?filemtime($services_css):time
         <div class="container">
 
 
-            <aside id="sidebar" class="sidebar">
-                
-        
-                <a href="/" class="<?= $page==='home'?'active':''?>">HOME</a>
-                <a href="/projects" class="<?= $page==='projects'?'active':''?>">PROJECTS</a>
-                <!-- <a href="/skills" class="<?= $page==='skills'?'active':''?>">TEST OUR WORK </a> -->
-                <a href="/career" class="<?= $page==='jobs'?'active':''?>">CAREER </a>
-                <a href="/about" class="<?= $page==='about'?'active':''?>">ABOUT US</a>
-
-                <a href="/services" class="<?= $page==='services'?'active':''?>">SERVICES</a>
-                
-            
-                <button class="cls_sidebar">X</button>
-
-
-            </aside>
+         
 
             <main class="content">
 
@@ -126,7 +130,7 @@ $services_css_version = file_exists($services_css)?filemtime($services_css):time
 
 
 
-        <script type="text/javascript" src="/assets/js/app.js" > </script>
+        <script type="text/javascript" src="/assets/js/app.js?v=<?=$js_ver?>" defer> </script>
 
     </body>
 

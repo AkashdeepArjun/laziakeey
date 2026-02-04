@@ -2,32 +2,20 @@
 
     <h1>CHECK OUT OUR PROJECTS!</h1>
 
-        <h2>FRONT END PROJECTS </h2>
+    <h2>FRONT END PROJECTS </h2>
    
     <div class = "list_projects">
 
-    
-
-
-        <div class="project_card">
+            <div class="project_card">
 
             <h4>Fashion Gigs</h4>
 
             <div class="img_wrapper">
 
                 <img src="/assets/images/fashion.webp" loading="lazy">
-
-
-
             </div>
 
-
-
-
-
             <p> A Store for Fashion ! </p>
-
-
             <button>CHECK THIS OUT</button>
         </div> 
 
@@ -44,10 +32,6 @@
             </div>
 
 
-
-
-
-        
             <p>  know business !</p>
             <button>CHECK THIS OUT</button>
 
@@ -73,15 +57,10 @@
 
 
         </div> 
-
-
-
-
     </div>
 
 
- 
-   <h2>BACK END PROJECTS</h2>
+    <h2> BACKEND PROJECTS</h2>
 
 
     <div class = "list_projects">

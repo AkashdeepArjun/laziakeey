@@ -9,9 +9,9 @@
 
         <p>1</p>
 
-        <button>Eligibility </button>
+        <button class="btn_eligib">Eligibility </button>
 
-        <button>Apply</button>
+        <button class="btn_apply">Apply</button>
 
     </div>
 
@@ -24,9 +24,9 @@
 
         <p>0</p>
 
-        <button>Eligibility </button>
+        <button class="btn_eligib">Eligibility </button>
 
-        <button>Apply</button>
+        <button class="btn_apply">Apply</button>
 
     </div>
 
@@ -39,9 +39,9 @@
 
         <p>1</p>
 
-        <button>Eligibility </button>
+        <button class="btn_eligib">Eligibility </button>
 
-        <button>Apply</button>
+        <button class="btn_apply">Apply</button>
 
     </div>
 

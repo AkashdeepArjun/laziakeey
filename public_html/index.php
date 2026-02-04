@@ -45,6 +45,6 @@ switch ($final_url) {
         break;
 }
 
-require __DIR__.'/views/layout.php';
+     require __DIR__.'/views/layout.php';
 
 ?>
