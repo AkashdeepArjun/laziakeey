@@ -24,7 +24,6 @@
             <li>DIAGNOSTICS HARDWARE/SOFTWARE</li>
             <li> FIRMWARE/SOFTWARE FLASHING SERVICES </li>
         </ul>
-      <button> BOOK ENGINEER VISIT !</button>
     </div>    
            
 </div>

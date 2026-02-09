@@ -54,8 +54,15 @@ $js_ver=file_exists($js_file)?filemtime($js_file):time();
 
     <body>
 
-        <header class="header">
+        <header class="header"> 
+
+        
+            <a href="/"><img src="/assets/images/lazi.png" class="logo"></a>
             <button class="menu-btn">☰</button>
+           
+
+            
+
             <nav class="top-nav">
 
                 <a href="/" class="<?= $page==='home'?'active':''?>">HOME</a>
@@ -68,8 +75,17 @@ $js_ver=file_exists($js_file)?filemtime($js_file):time();
 
             </nav>
 
-              <aside id="sidebar" class="sidebar">
 
+
+
+            
+        </header>
+
+        <section>
+
+          <aside id="sidebar" class="sidebar">
+
+                <div class="side_nav_items ">   
 
                 <a href="/" class="<?= $page==='home'?'active':''?>">HOME</a>
                 <a href="/projects" class="<?= $page==='projects'?'active':''?>">PROJECTS</a>
@@ -78,22 +94,14 @@ $js_ver=file_exists($js_file)?filemtime($js_file):time();
                 <a href="/about" class="<?= $page==='about'?'active':''?>">ABOUT US</a>
 
                 <a href="/services" class="<?= $page==='services'?'active':''?>">SERVICES</a>
+                </div>
 
+              
 
                 <button class="cls_sidebar">X</button>
 
-
             </aside>
-
-           
-
-
-        </header>
-
-        <div class="container">
-
-
-         
+   
 
             <main class="content">
 
@@ -126,7 +134,7 @@ $js_ver=file_exists($js_file)?filemtime($js_file):time();
 
 
 
-        </div>
+        </section>
 
 
 

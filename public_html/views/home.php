@@ -5,7 +5,7 @@
 
 
         
-        <img src="/assets/images/businessOwners.webp" loading="lazy">
+        <img src="/assets/images/b.png" loading="lazy">
 
         <h1> WANT A PROFESSIONAL WEBSITE ?</h1>
 
@@ -16,17 +16,7 @@
     </div>
 
         
-         <div class="wrapper">
-
-
-        <h1> WANT A PROFESSIONAL ANDROID APP ? </h1>
-
-        <img src="/assets/images/business.webp" loading="lazy">
-
-        <button>Coming Soon!!</button>
-
-
-    </div>
+       
         
 
 

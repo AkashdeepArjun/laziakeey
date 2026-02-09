@@ -10,10 +10,9 @@
 
             <h4>Fashion Gigs</h4>
 
-            <div class="img_wrapper">
 
                 <img src="/assets/images/fashion.webp" loading="lazy">
-            </div>
+            
 
             <p> A Store for Fashion ! </p>
             <button>CHECK THIS OUT</button>
@@ -23,13 +22,12 @@
 
             <h4>BusinessTrends</h4>
 
-             <div class="img_wrapper">
 
                 <img src="/assets/images/btrends.webp"  loading="lazy">
 
 
 
-            </div>
+        
 
 
             <p>  know business !</p>
@@ -40,13 +38,11 @@
 
             <h4> BLogistics </h4>
             
-            <div class="img_wrapper">
 
                 <img src="/assets/images/logistics.png" loading="lazy" >
 
 
 
-            </div>
 
             <p> Logistics Simulation </p>
 
@@ -70,13 +66,11 @@
 
             <h4>Fashion Gigs </h4>
 
-            <div class="img_wrapper">
 
                 <img src="/assets/images/fashion.png" loading="lazy">
                     
 
 
-            </div>
 
            
 
@@ -90,13 +84,11 @@
             <h4>BusinessTrends</h4>
 
           
-             <div class="img_wrapper">
 
                 <img src="/assets/images/btrends.png"  loading="lazy">
 
 
 
-            </div>
 
             <p>  BusinessTrends Api </p>
 
@@ -107,11 +99,9 @@
 
             <h4> BLogistics</h4>
 
-            <div class="img_wrapper">
 
                 <img src="/assets/images/logistics.png"  loading="lazy">
 
-            </div>
 
 
 
