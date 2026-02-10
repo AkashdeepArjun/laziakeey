@@ -150,6 +150,63 @@
 
 
 
+.vacancy_card > dialog {
+
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    box-shadow: 0.5rem 0.8rem 0 rgba(0 0 0 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    column-gap: 4rem;
+    row-gap: 2rem;
+    padding: 1rem;
+
+}
+
+
+
+dialog[open]{
+    display: block;
+}
+
+
+dialog > .skills_full_stack{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.skills_full_stack  img {
+
+    width:8rem;
+    height:8rem;
+    aspect-ratio: 1 /1;
+    object-fit: contain;
+
+
+
+
+
+}
+
+
+dialog::backdrop{
+
+    background-color: rgba(0 0 0 /0.7);
+
+}
+
+
+
 
 
 

@@ -7,6 +7,28 @@ document.addEventListener("DOMContentLoaded",()=>{
     const sidebar =document.querySelector(".sidebar");
 
 
+    document.addEventListener("click",(event)=>{
+
+        const elig_button = event.target.closest('.btn_eligib');
+        if(elig_button){
+
+            const elig_diag = document.querySelector('dialog');
+
+            const rect = elig_button.getBoundingClientRect();
+            
+            elig_diag.style.top=`${rect.bottom+window.scrollY}px`;
+
+            elig_diag.style.left=`${rect.left+window.scrollX}px`;
+
+            elig_diag.showModal();
+
+
+
+        }
+
+
+    })
+
 
     
     // const a = null;
